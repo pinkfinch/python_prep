@@ -29,7 +29,7 @@ COMPLETE THIS IN 45 MINUTES:
     # 10. Export cleaned data
 """
 import pandas as pd
-import matplotlib.pyplot as plt
+import traceback
 from datetime import datetime
 
 def clean_patient_data(csv_path):
@@ -63,7 +63,6 @@ def clean_patient_data(csv_path):
         print("Error parsing CSV file!")
     except Exception as e:
         print(f"Unexpected error: {e}")
-        import traceback
         traceback.print_exc()  # This helps debug!
 
 def parse_flexible_date(date):

@@ -1,0 +1,5 @@
+order_id,customer_id,product_id,quantity,price,category,order_date,region
+O001,C001,P100,2,29.99,Electronics,2024-01-15,East
+O002,C002,P101,1,15.50,Home,2024-01-15,West
+O003,C001,P102,1,199.99,Electronics,2024-01-16,East
+O004,C003,P100,3,29.99,Electronics,2024-01-16,North
